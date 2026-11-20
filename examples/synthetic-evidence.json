@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "approved_assets": ["demo-gateway", "demo-admin-portal", "demo-file-server"],
+  "observations": [
+    {"id": "DEMO-01", "asset": "demo-gateway", "check": "public_admin_access", "present": true},
+    {"id": "DEMO-02", "asset": "demo-gateway", "check": "admin_mfa_disabled", "present": false},
+    {"id": "DEMO-03", "asset": "demo-admin-portal", "check": "public_admin_access", "present": false},
+    {"id": "DEMO-04", "asset": "demo-admin-portal", "check": "admin_mfa_disabled", "present": true},
+    {"id": "DEMO-05", "asset": "demo-file-server", "check": "unsupported_software", "present": true}
+  ]
+}

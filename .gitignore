@@ -1,0 +1,6 @@
+
+# Local logs and sensitive data
+codex-session.log
+*.log
+__pycache__/
+customer-data/
